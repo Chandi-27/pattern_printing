@@ -1,0 +1,63 @@
+1
+22
+333
+4444
+55555
+for(int i=1;i<=n;i++){
+   for(int j=1;j<=i;j++){
+      print(i)
+   }
+}
+
+i=1
+j=1
+x=int(input("Enter a num"))
+for i in range(1,x+1)
+for j in range(1,i+1)
+print(i)
+print()
+
+
+*********************************
+reverse of a number :
+rev=0
+while num>0:
+m=num%10
+rev=rev*10+m
+n=n//10
+if rev==num :
+print("palindrome")
+else:
+print("not palindrome")
+
+*************************
+armstrong num:
+153=1+125+27  # 1^3=3  5^3=125  3^3=27
+n=int(input("Enter a num")
+temp=n
+sum=0
+while n>0:
+m=n%10
+sum=sum+m*m*m
+n=n//10
+if(sum==temp):
+print("Armstrong")
+else:
+print("Not Armstrong")
+
+**************************************
+
+calculate area of triangle,square,rectangle
+
+a=int(input("Enter length"))
+b=int(input("Enter breadth"))
+print("area of triangle",0.5*a*b)
+a=int(input("Enter length"))
+b=int(input("Enter breadth"))
+print("area of rectangle",a*b)
+a=int(input("Enter length"))
+print("area of square",a*a)
+
+************************************
+swap 3 numbers and sort them
+
